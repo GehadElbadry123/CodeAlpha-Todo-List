@@ -1,0 +1,86 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family:'poppins', sans-serif ;
+    box-sizing: border-box ;
+    background-color: black;
+}
+  .App{
+    border: 1px solid white;
+     margin: 100px 30%; 
+    padding: 50px;
+    text-align: center;
+    border-radius: 25px; 
+    
+  }
+  
+  .App h2{
+    font-size: 35px;
+    color: rgb(231, 224, 224);
+  }
+  .App h2 img{
+    width: 40px;
+    height: 30px;
+    margin-left: 20px;
+    
+  }
+  .App ul{
+      list-style: "❤️";
+      cursor: pointer;
+      font-size: 25px;
+      color: rgb(190, 186, 186);
+      margin: 30px ;
+  }
+  .row{
+    display: flex;
+    background: #edeef0 ;
+    border-radius: 30px;
+    margin-top: 30px;
+  }
+  .App input{
+    
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .App input {
+      max-width: 100px;
+    }
+  }
+  .btn{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 40px; 
+  }
+   
+ 
+   .App ul li{
+    word-wrap: break-word;
+  
+  }
+  .diffstyle{
+    list-style: "☑️";
+    text-decoration: line-through;
+  }
+  .App ul button{
+    width:80px;
+    height: 30px;
+    background-color: rgb(184, 43, 43);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  
+  
+  
+   
